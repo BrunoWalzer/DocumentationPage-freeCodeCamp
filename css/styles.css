@@ -1,0 +1,107 @@
+@media (max-width: 768px) {
+    #navbar {
+        width: 100%;
+        position: relative;
+    }
+    main {
+        margin-left: 0;
+    }
+}
+
+*{
+box-sizing: border-box;
+font-family: Montserrat, Sans-serif;
+}
+
+body{
+margin: 0;
+background-color: #f3f3f3;
+}
+
+.main-section{
+text-align: left;
+margin-left: 295px;
+top: 0;
+left: 0;
+padding: 20px;
+}
+
+.scrollheader{
+position: fixed;
+width: 300px;
+height: 50px;
+border-bottom: 2px solid grey;
+font-size: 22px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.navbar{
+position: fixed;
+width: 303px;
+height: 100vh;
+display: flex;
+flex-direction: column;
+border-right: 2px solid grey;
+top: 0;
+}
+
+.navbarscroll{
+overflow: scroll;
+width: 300px;
+height: 100%;
+margin-top: 50px;
+}
+
+.navbarscroll a{
+display: block;
+color: black;
+font-size: 15px;
+margin: 20px 35px;
+
+}
+
+a{
+text-decoration: none;
+}
+
+.navbarscroll a:hover{
+text-decoration: underline;
+}
+
+.divisor{
+width: 100%;
+border: 0.5px solid grey;
+gap: 0;
+margin: 0;
+padding: 0;
+}
+
+main .divisor{
+width: 100%;
+margin: 0;
+padding: 0;
+}
+
+.list{
+font-size: 15px;
+
+}
+
+section{
+padding-left: 20px;
+}
+
+.main-section{
+font-size: 25px;
+}
+
+.main-section p{
+font-size: 15px;
+}
+
+code{
+font-size: 15px;
+display: block;
+}
